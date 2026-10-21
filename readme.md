@@ -1,12 +1,6 @@
-# HHA 504: Final Project 
-
-Link to Assignment: 
-https://github.com/hantswilliams/HHA-504-2025/blob/main/final/about.md
+# HHA 502: Final Project Concept
 
 
-
-
-Use case: Remote Neurologist service for Emergency Stroke Consultation
 
 
 ### Diagram
@@ -14,6 +8,4 @@ Use case: Remote Neurologist service for Emergency Stroke Consultation
 
 ![colored diagram](images/dataflow_structure_color.png)
 
-
-created using ClipStudio Paint Pro 
 

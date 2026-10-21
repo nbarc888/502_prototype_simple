@@ -16,24 +16,6 @@ Primary methodology is to use flask app to display an image from a GCP bucket wh
 
 ![vm successful flask connection](../images/vm_confirm.PNG)
 
-
-Log into Azure 
-
-Create Virtual Machine with Following items:
-Region - US - East US
-Availability Zone 3
-Image : Ubuntu Server 24.04 LTS x64 Gen2 
-VM architecture x64
-Size: Standard_F1s- 1 vcpu, 2 GiB memory (36.28 USD/monthly)
-
-Admin account
-username: dog
-password: German$hepherd
-
-Allow Selected port: SHH (22)
-
-----------------
-
 ### Due to Price variability between both Azure and GCP, GCP was selected to run prototype. 
 
 

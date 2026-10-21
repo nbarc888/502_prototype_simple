@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>CSV Table</title>
+  <style>
+    table { border-collapse: collapse; margin: auto; }
+    th, td { border: 1px solid #777; padding: 6px 12px; }
+    th { background: #C90000; color: white; }
+  </style>
+</head>
+<body>
+  <table>
+    <tr>
+      {% for col in header %}<th>{{ col }}</th>{% endfor %}
+    </tr>
+    {% for row in data %}
+    <tr>
+      {% for cell in row %}<td>{{ cell }}</td>{% endfor %}
+    </tr>
+    {% endfor %}
+  </table>
+</body>
+</html>
